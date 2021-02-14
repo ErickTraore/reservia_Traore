@@ -29,18 +29,15 @@ nav {
 
 .elt p {
     color: #0065FC;
-    /* border: 3px solid black; */
 }
 
 .elt:nth-child(1) {
     width: 218px;
     margin-right: 26px;
-    /* border: 3px solid rgb(218, 233, 15); */
 }
 
 .elt:nth-child(2) {
     width: 100px;
-    /* border: 3px solid black; */
 }
 
 .elt img {
@@ -53,7 +50,6 @@ nav {
     height: 20px;
     margin: 0px 0px 0px 50px;
     padding: 24px 0px 0px 0px;
-    /* border: 3px solid #0065FC; */
 }
 
 .part:nth-child(1) {
@@ -105,26 +101,18 @@ nav {
     .part:nth-child(3) {
         width: 40px;
         order: 2;
-        /* flex-wrap: wrap; */
     }
     .elt {
         width: 350px;
         font-size: 70px;
         margin-right: 40px;
     }
-    /* .elt {
-        font-size: 0.8rem;
-    } */
     .elt img {
         display: inline-block;
         width: 326px;
         font-size: 22px;
-        /* border: 3px solid red; */
         margin: 100px 0px 0px -80px;
     }
-    /* .elt:nth-child(1) {
-            margin: 3px 0px 0px -55px;
-        } */
     .hebg {
         border-top: none;
     }
@@ -154,26 +142,8 @@ nav {
         display: flex;
         border: 3px solid #0065FC;
     }
-    /* .trait_bleu {
-        width: 50%;
-        height: 20px;
-        border: 3px solid#0065FC;
-    }
-    .trait_gris {
-        width: 50%;
-        height: 20px;
-        border: 3px solid rgba(2, 22, 22, 0.116);
-    } */
-    /* .hebg {
-    font-size: 16px;
-    margin: 34px 0px 0px 50px;
-} */
     .sign {
         font-size: 70px;
         margin: 145px 0px 0px 250px;
     }
 }
-
-@media screen and (max-width: 960px) {}
-
-@media screen and (max-width: 512px) {}
