@@ -1,0 +1,149 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+}
+
+.heading {
+    width: 98%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.part {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.elt {
+    flex-grow: 1;
+    font-size: 1.5rem;
+    margin-right: 40px;
+}
+
+.elt p {
+    color: #0065FC;
+}
+
+.elt:nth-child(1) {
+    width: 218px;
+    margin-right: 26px;
+}
+
+.elt:nth-child(2) {
+    width: 100px;
+}
+
+.elt img {
+    width: 100px;
+    margin: 24px 0px 0px 58px;
+}
+
+.hebg {
+    width: 134px;
+    height: 20px;
+    margin: 0px 0px 0px 50px;
+    padding: 24px 0px 0px 0px;
+}
+
+.part:nth-child(1) {
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    margin: 0px 0px 0px 0px;
+}
+
+.part:nth-child(2) {
+    margin: 0px 0px 0px 0px;
+}
+
+@media screen and (max-width: 1281px) {
+    .heading {
+        width: 1281;
+        min-width: 900px;
+        flex-grow: 1;
+        max-width: 1100px;
+        flex-shrink: 0;
+    }
+    .part:nth-child(2) {
+        margin: 0px 0px 0px 0px;
+    }
+    .elt {
+        height: 20px;
+        font-size: 1.5rem;
+        margin: 0px 60px 0px 0px;
+    }
+    .hebg {
+        padding: 23px 0px 0px 0px;
+        border-top: 3px solid #0065FC;
+    }
+    .elt img {
+        margin: 16px 0px 0px 88px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .heading {
+        flex-wrap: wrap;
+    }
+    .part:nth-child(2) {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        order: 3;
+    }
+    .part:nth-child(3) {
+        width: 40px;
+        order: 2;
+    }
+    .elt {
+        width: 350px;
+        font-size: 70px;
+        margin-right: 40px;
+    }
+    .elt img {
+        display: inline-block;
+        width: 326px;
+        font-size: 22px;
+        margin: 100px 0px 0px -80px;
+    }
+    .hebg {
+        border-top: none;
+    }
+    .borderVide {
+        width: 600px;
+        height: 100px;
+        margin: 3px 0px 0px -55px;
+    }
+    .hebg {
+        width: 120%;
+        height: 100px;
+        margin: 280px 0px 0px 0px;
+        padding: 0px 0px 0px 112px;
+        border-bottom: 8px solid #0065FC;
+    }
+    .act {
+        width: 109%;
+        height: 100px;
+        margin: 280px 0px 0px 180px;
+        padding: 0px 0px 0px 156px;
+        font-size: 70px;
+        border-bottom: 8px solid #f2f2f2;
+    }
+    .trait {
+        width: 100%;
+        height: 20px;
+        display: flex;
+        border: 3px solid #0065FC;
+    }
+    .sign {
+        font-size: 70px;
+        margin: 145px 0px 0px 250px;
+    }
+}
